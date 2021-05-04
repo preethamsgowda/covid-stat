@@ -16,7 +16,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 loadGeoCoordinates = () => {
-  d3.json("geoCoordinates_3.json", function (json) {
+  d3.json("./geoCoordinates/geoCoordinates_3.json", function (json) {
     function style(feature) {
       return {
         fillColor: "#E3E3E3",
