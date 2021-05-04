@@ -1,0 +1,14 @@
+#map {
+  width: 1020px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
